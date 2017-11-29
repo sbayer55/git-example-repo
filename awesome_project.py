@@ -1,4 +1,7 @@
 #!/usr/bin/env python
+"""This print stuff
+"""
+
 
 def count(start, target):
     for i in range(start, target):
