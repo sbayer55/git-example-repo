@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 
 def count(target):
-    for i in range(0, target):
+    for i in range(1, target + 1):
         print(str(i))
 
 if __name__ == "__main__":
-    print("I am an awesome program!")
+    print("I now count from 1 to target, inclusive!")
     count(10)
